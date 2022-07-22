@@ -1,0 +1,41 @@
+.parent__container{
+    width: 600px;
+    border: 2px solid gainsboro;
+    margin: 150px auto;
+    border-radius: .3rem;
+}
+.container{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+.content{
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content button{
+    background-color: #E7717D;
+    border: none;
+    border-radius: .1rem;
+    padding: .3rem .7rem;
+    color: #fff;
+    cursor: pointer;
+}
+.box{
+ height: 200px;
+ width: 200px;
+ background-color: #E7717D;
+ color: #fff;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 4rem;
+}

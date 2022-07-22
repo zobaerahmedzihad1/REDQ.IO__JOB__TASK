@@ -1,0 +1,52 @@
+.container{
+    background-color: #F2F2F2;
+    width: 600px;
+    height: 150px;
+    margin: 200px auto;
+    border-radius: 5px;
+    padding: 2rem;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* justify content other values we can use : 
+
+    justify-content: space-around;
+    justify-content: space-evenly;  
+    */
+}
+.A{
+    background-color: #96CAEF;
+    color: #fff;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B{
+    background-color: #8DE4AF;
+    color: #fff;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.C{
+    background-color: #E7717D;
+    color: #fff;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
